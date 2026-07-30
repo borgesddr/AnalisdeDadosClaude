@@ -1,0 +1,15 @@
+{
+  "total_revenue": 974077.28,
+  "total_orders": 3020,
+  "total_units": 4322,
+  "avg_order_value": 322.54,
+  "avg_unit_price": 230.09,
+  "unique_customers_active": 50,
+  "unique_products_sold": 205,
+  "total_customers_registered": 50,
+  "total_products_catalog": 215,
+  "date_range": {
+    "start": "2025-12-13",
+    "end": "2026-01-11"
+  }
+}

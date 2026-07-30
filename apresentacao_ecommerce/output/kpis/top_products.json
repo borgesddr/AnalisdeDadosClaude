@@ -1,0 +1,167 @@
+[
+  {
+    "id_produto": "prd_f063f46a7ef8",
+    "nome_produto": "Fone de Ouvido Esportivo",
+    "categoria": "Áudio",
+    "marca": "Consul",
+    "revenue": 116462.65,
+    "units": 85,
+    "orders": 64,
+    "avg_price_realizado": 1375.4,
+    "preco_atual": 1428.99
+  },
+  {
+    "id_produto": "prd_d22d1b8b1502",
+    "nome_produto": "Camisa Social",
+    "categoria": "Moda",
+    "marca": "Brastemp",
+    "revenue": 115794.92,
+    "units": 103,
+    "orders": 72,
+    "avg_price_realizado": 1122.75,
+    "preco_atual": 1149.9
+  },
+  {
+    "id_produto": "prd_6d4e3b1efd0c",
+    "nome_produto": "Necessaire",
+    "categoria": "Acessórios",
+    "marca": "Xiaomi",
+    "revenue": 63668.43,
+    "units": 57,
+    "orders": 41,
+    "avg_price_realizado": 1102.45,
+    "preco_atual": 1139.99
+  },
+  {
+    "id_produto": "prd_334f4a32f979",
+    "nome_produto": "Persiana Vertical",
+    "categoria": "Casa",
+    "marca": "Motorola",
+    "revenue": 42310.56,
+    "units": 108,
+    "orders": 65,
+    "avg_price_realizado": 391.74,
+    "preco_atual": 404.5
+  },
+  {
+    "id_produto": "prd_645f7859f379",
+    "nome_produto": "Calça Jeans Skinny",
+    "categoria": "Moda",
+    "marca": "Asus",
+    "revenue": 41313.34,
+    "units": 88,
+    "orders": 62,
+    "avg_price_realizado": 470.8,
+    "preco_atual": 486.9
+  },
+  {
+    "id_produto": "prd_afd58e5fd09d",
+    "nome_produto": "Condicionador Hidratante",
+    "categoria": "Beleza",
+    "marca": "Asus",
+    "revenue": 31587.75,
+    "units": 71,
+    "orders": 54,
+    "avg_price_realizado": 445.62,
+    "preco_atual": 451.9
+  },
+  {
+    "id_produto": "prd_d500fa66507e",
+    "nome_produto": "Shorts Jeans",
+    "categoria": "Moda",
+    "marca": "Electrolux",
+    "revenue": 28431.49,
+    "units": 76,
+    "orders": 52,
+    "avg_price_realizado": 373.88,
+    "preco_atual": 384.99
+  },
+  {
+    "id_produto": "prd_8b22fd85d500",
+    "nome_produto": "Garrafa Térmica 1L",
+    "categoria": "Cozinha",
+    "marca": "Sony",
+    "revenue": 21498.06,
+    "units": 69,
+    "orders": 53,
+    "avg_price_realizado": 312.42,
+    "preco_atual": 324.99
+  },
+  {
+    "id_produto": "prd_385035a5bc20",
+    "nome_produto": "Notebook Inspiron 15",
+    "categoria": "Eletrônicos",
+    "marca": "Adidas",
+    "revenue": 20813.53,
+    "units": 98,
+    "orders": 63,
+    "avg_price_realizado": 212.57,
+    "preco_atual": 219.9
+  },
+  {
+    "id_produto": "prd_b7490508211e",
+    "nome_produto": "Vestido Floral",
+    "categoria": "Moda",
+    "marca": "Apple",
+    "revenue": 17842.0,
+    "units": 84,
+    "orders": 64,
+    "avg_price_realizado": 212.44,
+    "preco_atual": 220.0
+  },
+  {
+    "id_produto": "prd_bf5d8671f7a9",
+    "nome_produto": "Placa Mãe B450",
+    "categoria": "Informática",
+    "marca": "Brastemp",
+    "revenue": 15569.17,
+    "units": 134,
+    "orders": 88,
+    "avg_price_realizado": 116.22,
+    "preco_atual": 119.9
+  },
+  {
+    "id_produto": "prd_ff35b88df534",
+    "nome_produto": "SSD 500GB",
+    "categoria": "Eletrônicos",
+    "marca": "Acer",
+    "revenue": 15214.52,
+    "units": 73,
+    "orders": 54,
+    "avg_price_realizado": 208.76,
+    "preco_atual": 211.9
+  },
+  {
+    "id_produto": "prd_045813f96891",
+    "nome_produto": "Cardigan de Lã",
+    "categoria": "Moda",
+    "marca": "LG",
+    "revenue": 13898.58,
+    "units": 102,
+    "orders": 62,
+    "avg_price_realizado": 136.99,
+    "preco_atual": 142.99
+  },
+  {
+    "id_produto": "prd_dfac11815029",
+    "nome_produto": "Microfone para Stream",
+    "categoria": "Games",
+    "marca": "Apple",
+    "revenue": 12294.45,
+    "units": 67,
+    "orders": 46,
+    "avg_price_realizado": 183.66,
+    "preco_atual": 189.0
+  },
+  {
+    "id_produto": "prd_92c0ecf60a58",
+    "nome_produto": "Jogo de Toalhas",
+    "categoria": "Casa",
+    "marca": "Brastemp",
+    "revenue": 12011.76,
+    "units": 69,
+    "orders": 47,
+    "avg_price_realizado": 174.16,
+    "preco_atual": 180.9
+  }
+]

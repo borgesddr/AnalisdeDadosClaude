@@ -1,0 +1,137 @@
+{
+  "monthly": [
+    {
+      "month": "2022-10",
+      "new_customers": 1,
+      "cumulative_customers": 1
+    },
+    {
+      "month": "2022-12",
+      "new_customers": 2,
+      "cumulative_customers": 3
+    },
+    {
+      "month": "2023-01",
+      "new_customers": 3,
+      "cumulative_customers": 6
+    },
+    {
+      "month": "2023-02",
+      "new_customers": 3,
+      "cumulative_customers": 9
+    },
+    {
+      "month": "2023-03",
+      "new_customers": 1,
+      "cumulative_customers": 10
+    },
+    {
+      "month": "2023-04",
+      "new_customers": 4,
+      "cumulative_customers": 14
+    },
+    {
+      "month": "2023-05",
+      "new_customers": 1,
+      "cumulative_customers": 15
+    },
+    {
+      "month": "2023-06",
+      "new_customers": 2,
+      "cumulative_customers": 17
+    },
+    {
+      "month": "2023-07",
+      "new_customers": 1,
+      "cumulative_customers": 18
+    },
+    {
+      "month": "2023-08",
+      "new_customers": 1,
+      "cumulative_customers": 19
+    },
+    {
+      "month": "2023-10",
+      "new_customers": 2,
+      "cumulative_customers": 21
+    },
+    {
+      "month": "2023-11",
+      "new_customers": 3,
+      "cumulative_customers": 24
+    },
+    {
+      "month": "2024-01",
+      "new_customers": 1,
+      "cumulative_customers": 25
+    },
+    {
+      "month": "2024-02",
+      "new_customers": 1,
+      "cumulative_customers": 26
+    },
+    {
+      "month": "2024-04",
+      "new_customers": 2,
+      "cumulative_customers": 28
+    },
+    {
+      "month": "2024-07",
+      "new_customers": 1,
+      "cumulative_customers": 29
+    },
+    {
+      "month": "2024-08",
+      "new_customers": 2,
+      "cumulative_customers": 31
+    },
+    {
+      "month": "2024-09",
+      "new_customers": 1,
+      "cumulative_customers": 32
+    },
+    {
+      "month": "2024-12",
+      "new_customers": 3,
+      "cumulative_customers": 35
+    },
+    {
+      "month": "2025-01",
+      "new_customers": 4,
+      "cumulative_customers": 39
+    },
+    {
+      "month": "2025-02",
+      "new_customers": 2,
+      "cumulative_customers": 41
+    },
+    {
+      "month": "2025-03",
+      "new_customers": 2,
+      "cumulative_customers": 43
+    },
+    {
+      "month": "2025-05",
+      "new_customers": 2,
+      "cumulative_customers": 45
+    },
+    {
+      "month": "2025-06",
+      "new_customers": 2,
+      "cumulative_customers": 47
+    },
+    {
+      "month": "2025-07",
+      "new_customers": 2,
+      "cumulative_customers": 49
+    },
+    {
+      "month": "2025-10",
+      "new_customers": 1,
+      "cumulative_customers": 50
+    }
+  ],
+  "active_in_period": 50,
+  "total_customers": 50,
+  "activation_rate_pct": 100.0
+}

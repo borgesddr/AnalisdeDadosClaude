@@ -1,0 +1,18 @@
+[
+  {
+    "canal_venda": "ecommerce",
+    "revenue": 705486.21,
+    "orders": 2155,
+    "units": 3061,
+    "share_pct": 72.4,
+    "avg_ticket": 327.37
+  },
+  {
+    "canal_venda": "loja_fisica",
+    "revenue": 268591.07,
+    "orders": 865,
+    "units": 1261,
+    "share_pct": 27.6,
+    "avg_ticket": 310.51
+  }
+]

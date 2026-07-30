@@ -1,0 +1,137 @@
+[
+  {
+    "id_cliente": "cus_2b1b3e2a1515",
+    "nome_cliente": "Ana Sophia Pereira",
+    "estado": "MG",
+    "revenue": 30716.63,
+    "orders": 53,
+    "units": 84,
+    "avg_ticket": 579.56
+  },
+  {
+    "id_cliente": "cus_25d1cb23f872",
+    "nome_cliente": "Melissa Pastor",
+    "estado": "AC",
+    "revenue": 30211.93,
+    "orders": 68,
+    "units": 98,
+    "avg_ticket": 444.29
+  },
+  {
+    "id_cliente": "cus_c3944101594c",
+    "nome_cliente": "Murilo da Mata",
+    "estado": "RR",
+    "revenue": 28285.82,
+    "orders": 81,
+    "units": 120,
+    "avg_ticket": 349.21
+  },
+  {
+    "id_cliente": "cus_fa3a88d1ccef",
+    "nome_cliente": "Dr. Benício Gomes",
+    "estado": "AL",
+    "revenue": 27424.23,
+    "orders": 72,
+    "units": 101,
+    "avg_ticket": 380.89
+  },
+  {
+    "id_cliente": "cus_f64907d41a69",
+    "nome_cliente": "Henrique da Conceição",
+    "estado": "DF",
+    "revenue": 26687.99,
+    "orders": 77,
+    "units": 108,
+    "avg_ticket": 346.6
+  },
+  {
+    "id_cliente": "cus_b0026583b709",
+    "nome_cliente": "Dra. Mariane Pacheco",
+    "estado": "MT",
+    "revenue": 25454.83,
+    "orders": 73,
+    "units": 107,
+    "avg_ticket": 348.7
+  },
+  {
+    "id_cliente": "cus_4e62d52db97a",
+    "nome_cliente": "Josué Souza",
+    "estado": "RJ",
+    "revenue": 24750.17,
+    "orders": 50,
+    "units": 73,
+    "avg_ticket": 495.0
+  },
+  {
+    "id_cliente": "cus_c9cd13d1ae9f",
+    "nome_cliente": "Srta. Yasmin Siqueira",
+    "estado": "PA",
+    "revenue": 23674.1,
+    "orders": 53,
+    "units": 71,
+    "avg_ticket": 446.68
+  },
+  {
+    "id_cliente": "cus_3580317ddeab",
+    "nome_cliente": "Bella Borges",
+    "estado": "AM",
+    "revenue": 22865.99,
+    "orders": 57,
+    "units": 89,
+    "avg_ticket": 401.16
+  },
+  {
+    "id_cliente": "cus_0343c0763f76",
+    "nome_cliente": "Vitor Gabriel da Luz",
+    "estado": "RS",
+    "revenue": 22734.53,
+    "orders": 65,
+    "units": 90,
+    "avg_ticket": 349.76
+  },
+  {
+    "id_cliente": "cus_71308b76151a",
+    "nome_cliente": "Srta. Amanda Sousa",
+    "estado": "MS",
+    "revenue": 21960.13,
+    "orders": 63,
+    "units": 92,
+    "avg_ticket": 348.57
+  },
+  {
+    "id_cliente": "cus_cf84750c1fb4",
+    "nome_cliente": "Alana Teixeira",
+    "estado": "MA",
+    "revenue": 21609.35,
+    "orders": 61,
+    "units": 87,
+    "avg_ticket": 354.25
+  },
+  {
+    "id_cliente": "cus_96658dc10aa5",
+    "nome_cliente": "Agatha Silveira",
+    "estado": "PA",
+    "revenue": 21445.08,
+    "orders": 66,
+    "units": 107,
+    "avg_ticket": 324.93
+  },
+  {
+    "id_cliente": "cus_66677d443e5e",
+    "nome_cliente": "Cecília da Luz",
+    "estado": "AC",
+    "revenue": 21335.05,
+    "orders": 64,
+    "units": 83,
+    "avg_ticket": 333.36
+  },
+  {
+    "id_cliente": "cus_f50da5532735",
+    "nome_cliente": "João Gabriel Porto",
+    "estado": "MG",
+    "revenue": 21238.95,
+    "orders": 57,
+    "units": 79,
+    "avg_ticket": 372.61
+  }
+]

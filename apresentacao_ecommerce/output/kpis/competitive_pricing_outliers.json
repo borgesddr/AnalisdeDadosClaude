@@ -1,0 +1,166 @@
+{
+  "most_overpriced": [
+    {
+      "id_produto": "prd_1757e5a44e02",
+      "preco_concorrente_medio": 18.95,
+      "nome_produto": "Tênis Nike Blazer",
+      "categoria": "Tênis",
+      "nosso_preco": 37.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_1317c4a1f775",
+      "preco_concorrente_medio": 225.95,
+      "nome_produto": "Tênis Puma Speedcat",
+      "categoria": "Tênis",
+      "nosso_preco": 451.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_225ae25e0a4f",
+      "preco_concorrente_medio": 202.25,
+      "nome_produto": "Tênis Puma Suede",
+      "categoria": "Tênis",
+      "nosso_preco": 404.5,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_39484d5e0b36",
+      "preco_concorrente_medio": 34.95,
+      "nome_produto": "Tênis Nike Revolution",
+      "categoria": "Tênis",
+      "nosso_preco": 69.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_4219bde6f03a",
+      "preco_concorrente_medio": 34.49,
+      "nome_produto": "Tênis Nike Air Max",
+      "categoria": "Tênis",
+      "nosso_preco": 68.99,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_4327485950d4",
+      "preco_concorrente_medio": 52.95,
+      "nome_produto": "Tênis Nike Revolution",
+      "categoria": "Tênis",
+      "nosso_preco": 105.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_f325ffd3f299",
+      "preco_concorrente_medio": 21.95,
+      "nome_produto": "Tênis Adidas Samba",
+      "categoria": "Tênis",
+      "nosso_preco": 43.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_c632a36ece80",
+      "preco_concorrente_medio": 32.45,
+      "nome_produto": "Tênis Nike Air Max",
+      "categoria": "Tênis",
+      "nosso_preco": 64.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_c4c05e57d1ff",
+      "preco_concorrente_medio": 47.95,
+      "nome_produto": "Tênis Nike Dunk",
+      "categoria": "Tênis",
+      "nosso_preco": 95.9,
+      "diff_pct": 100.0
+    },
+    {
+      "id_produto": "prd_d5b7bdafd562",
+      "preco_concorrente_medio": 98.95,
+      "nome_produto": "Tênis Adidas Stan Smith",
+      "categoria": "Tênis",
+      "nosso_preco": 197.9,
+      "diff_pct": 100.0
+    }
+  ],
+  "most_underpriced": [
+    {
+      "id_produto": "prd_295160cbf171",
+      "preco_concorrente_medio": 333.7,
+      "nome_produto": "Controle Xbox",
+      "categoria": "Games",
+      "nosso_preco": 283.26,
+      "diff_pct": -15.1
+    },
+    {
+      "id_produto": "prd_0b790b565ff2",
+      "preco_concorrente_medio": 107.99,
+      "nome_produto": "Mixer de Áudio",
+      "categoria": "Áudio",
+      "nosso_preco": 91.79,
+      "diff_pct": -15.0
+    },
+    {
+      "id_produto": "prd_3dd1d39581ca",
+      "preco_concorrente_medio": 55.51,
+      "nome_produto": "Halteres Ajustáveis",
+      "categoria": "Esporte",
+      "nosso_preco": 48.57,
+      "diff_pct": -12.5
+    },
+    {
+      "id_produto": "prd_31b74a170d35",
+      "preco_concorrente_medio": 77.27,
+      "nome_produto": "Saia Midi",
+      "categoria": "Moda",
+      "nosso_preco": 69.26,
+      "diff_pct": -10.4
+    },
+    {
+      "id_produto": "prd_9a3dfc23b7a3",
+      "preco_concorrente_medio": 111.83,
+      "nome_produto": "Relógio Analógico",
+      "categoria": "Acessórios",
+      "nosso_preco": 101.03,
+      "diff_pct": -9.7
+    },
+    {
+      "id_produto": "prd_2befc441dd56",
+      "preco_concorrente_medio": 236.62,
+      "nome_produto": "Bicicleta Ergométrica",
+      "categoria": "Esporte",
+      "nosso_preco": 214.27,
+      "diff_pct": -9.4
+    },
+    {
+      "id_produto": "prd_622325b011e6",
+      "preco_concorrente_medio": 334.69,
+      "nome_produto": "Iluminador para Stream",
+      "categoria": "Games",
+      "nosso_preco": 304.47,
+      "diff_pct": -9.0
+    },
+    {
+      "id_produto": "prd_2bf8388221ea",
+      "preco_concorrente_medio": 52.49,
+      "nome_produto": "Mouse Gamer RGB",
+      "categoria": "Games",
+      "nosso_preco": 47.77,
+      "diff_pct": -9.0
+    },
+    {
+      "id_produto": "prd_815b38747487",
+      "preco_concorrente_medio": 90.82,
+      "nome_produto": "Conjunto de Malha",
+      "categoria": "Moda",
+      "nosso_preco": 82.9,
+      "diff_pct": -8.7
+    },
+    {
+      "id_produto": "prd_47a25ae10c23",
+      "preco_concorrente_medio": 94.33,
+      "nome_produto": "Soundbar TV",
+      "categoria": "Áudio",
+      "nosso_preco": 86.21,
+      "diff_pct": -8.6
+    }
+  ]
+}

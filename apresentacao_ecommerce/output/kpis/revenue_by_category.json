@@ -1,0 +1,82 @@
+[
+  {
+    "categoria": "Moda",
+    "revenue": 248124.15,
+    "orders": 508,
+    "units": 756,
+    "n_products_sold": 22,
+    "share_pct": 25.5
+  },
+  {
+    "categoria": "Áudio",
+    "revenue": 137061.47,
+    "orders": 194,
+    "units": 255,
+    "n_products_sold": 17,
+    "share_pct": 14.1
+  },
+  {
+    "categoria": "Acessórios",
+    "revenue": 120909.94,
+    "orders": 312,
+    "units": 458,
+    "n_products_sold": 21,
+    "share_pct": 12.4
+  },
+  {
+    "categoria": "Casa",
+    "revenue": 112704.52,
+    "orders": 575,
+    "units": 831,
+    "n_products_sold": 27,
+    "share_pct": 11.6
+  },
+  {
+    "categoria": "Cozinha",
+    "revenue": 85059.89,
+    "orders": 275,
+    "units": 387,
+    "n_products_sold": 19,
+    "share_pct": 8.7
+  },
+  {
+    "categoria": "Beleza",
+    "revenue": 66852.52,
+    "orders": 197,
+    "units": 275,
+    "n_products_sold": 12,
+    "share_pct": 6.9
+  },
+  {
+    "categoria": "Eletrônicos",
+    "revenue": 62826.28,
+    "orders": 251,
+    "units": 355,
+    "n_products_sold": 13,
+    "share_pct": 6.4
+  },
+  {
+    "categoria": "Informática",
+    "revenue": 61410.87,
+    "orders": 261,
+    "units": 373,
+    "n_products_sold": 20,
+    "share_pct": 6.3
+  },
+  {
+    "categoria": "Games",
+    "revenue": 50176.04,
+    "orders": 301,
+    "units": 428,
+    "n_products_sold": 16,
+    "share_pct": 5.2
+  },
+  {
+    "categoria": "Esporte",
+    "revenue": 24711.59,
+    "orders": 126,
+    "units": 179,
+    "n_products_sold": 18,
+    "share_pct": 2.5
+  }
+]

@@ -1,0 +1,12 @@
+.env
+node_modules/
+dist/
+*.local
+.vite/
+coverage/
+
+# Artefatos compilados de configs .ts (nao versionar) — salvaguarda
+vite.config.js
+vite.config.d.ts
+*.tsbuildinfo
+*.tsbuildinfo

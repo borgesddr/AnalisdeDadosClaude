@@ -1,0 +1,35 @@
+{
+  "source_row_counts": {
+    "clientes": 50,
+    "produtos": 215,
+    "vendas": 3020,
+    "competidores": 728
+  },
+  "vendas_date_range": {
+    "start": "2025-12-13",
+    "end": "2026-01-11"
+  },
+  "categorias": [
+    "Acessórios",
+    "Beleza",
+    "Casa",
+    "Cozinha",
+    "Eletrônicos",
+    "Esporte",
+    "Games",
+    "Informática",
+    "Moda",
+    "Tênis",
+    "Áudio"
+  ],
+  "canais": [
+    "ecommerce",
+    "loja_fisica"
+  ],
+  "concorrentes": [
+    "Amazon",
+    "Magalu",
+    "Mercado Livre",
+    "Shopee"
+  ]
+}

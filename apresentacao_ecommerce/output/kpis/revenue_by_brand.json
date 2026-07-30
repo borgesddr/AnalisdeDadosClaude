@@ -1,0 +1,114 @@
+[
+  {
+    "marca": "Brastemp",
+    "revenue": 161012.51,
+    "orders": 262,
+    "units": 384,
+    "share_pct": 16.5
+  },
+  {
+    "marca": "Consul",
+    "revenue": 130816.57,
+    "orders": 168,
+    "units": 226,
+    "share_pct": 13.4
+  },
+  {
+    "marca": "Xiaomi",
+    "revenue": 100598.85,
+    "orders": 308,
+    "units": 450,
+    "share_pct": 10.3
+  },
+  {
+    "marca": "Asus",
+    "revenue": 94236.36,
+    "orders": 253,
+    "units": 345,
+    "share_pct": 9.7
+  },
+  {
+    "marca": "Sony",
+    "revenue": 60184.38,
+    "orders": 240,
+    "units": 343,
+    "share_pct": 6.2
+  },
+  {
+    "marca": "Motorola",
+    "revenue": 58604.13,
+    "orders": 119,
+    "units": 184,
+    "share_pct": 6.0
+  },
+  {
+    "marca": "Apple",
+    "revenue": 45403.32,
+    "orders": 170,
+    "units": 235,
+    "share_pct": 4.7
+  },
+  {
+    "marca": "Samsung",
+    "revenue": 44897.5,
+    "orders": 181,
+    "units": 254,
+    "share_pct": 4.6
+  },
+  {
+    "marca": "Electrolux",
+    "revenue": 44490.31,
+    "orders": 107,
+    "units": 163,
+    "share_pct": 4.6
+  },
+  {
+    "marca": "LG",
+    "revenue": 33985.33,
+    "orders": 117,
+    "units": 181,
+    "share_pct": 3.5
+  },
+  {
+    "marca": "Adidas",
+    "revenue": 31439.75,
+    "orders": 134,
+    "units": 199,
+    "share_pct": 3.2
+  },
+  {
+    "marca": "Philips",
+    "revenue": 29782.21,
+    "orders": 273,
+    "units": 401,
+    "share_pct": 3.1
+  },
+  {
+    "marca": "Mondial",
+    "revenue": 28813.48,
+    "orders": 147,
+    "units": 204,
+    "share_pct": 3.0
+  },
+  {
+    "marca": "Acer",
+    "revenue": 21316.03,
+    "orders": 93,
+    "units": 135,
+    "share_pct": 2.2
+  },
+  {
+    "marca": "Lenovo",
+    "revenue": 20385.43,
+    "orders": 41,
+    "units": 46,
+    "share_pct": 2.1
+  },
+  {
+    "marca": "Outras marcas",
+    "revenue": 63871.11,
+    "orders": 387,
+    "units": 547,
+    "share_pct": 6.6
+  }
+]

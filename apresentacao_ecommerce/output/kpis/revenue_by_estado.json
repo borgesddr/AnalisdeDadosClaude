@@ -1,0 +1,178 @@
+[
+  {
+    "estado": "AM",
+    "revenue": 79474.67,
+    "orders": 240,
+    "units": 357,
+    "customers_active": 4,
+    "share_pct": 8.2
+  },
+  {
+    "estado": "TO",
+    "revenue": 71055.63,
+    "orders": 235,
+    "units": 317,
+    "customers_active": 4,
+    "share_pct": 7.3
+  },
+  {
+    "estado": "PA",
+    "revenue": 70003.51,
+    "orders": 226,
+    "units": 326,
+    "customers_active": 4,
+    "share_pct": 7.2
+  },
+  {
+    "estado": "AC",
+    "revenue": 69833.78,
+    "orders": 190,
+    "units": 264,
+    "customers_active": 3,
+    "share_pct": 7.2
+  },
+  {
+    "estado": "SP",
+    "revenue": 60898.63,
+    "orders": 180,
+    "units": 250,
+    "customers_active": 3,
+    "share_pct": 6.3
+  },
+  {
+    "estado": "RS",
+    "revenue": 60727.1,
+    "orders": 203,
+    "units": 276,
+    "customers_active": 3,
+    "share_pct": 6.2
+  },
+  {
+    "estado": "GO",
+    "revenue": 57898.59,
+    "orders": 169,
+    "units": 243,
+    "customers_active": 3,
+    "share_pct": 5.9
+  },
+  {
+    "estado": "MT",
+    "revenue": 57431.13,
+    "orders": 164,
+    "units": 241,
+    "customers_active": 3,
+    "share_pct": 5.9
+  },
+  {
+    "estado": "MG",
+    "revenue": 51955.58,
+    "orders": 110,
+    "units": 163,
+    "customers_active": 2,
+    "share_pct": 5.3
+  },
+  {
+    "estado": "CE",
+    "revenue": 49133.23,
+    "orders": 171,
+    "units": 256,
+    "customers_active": 3,
+    "share_pct": 5.0
+  },
+  {
+    "estado": "SE",
+    "revenue": 44631.43,
+    "orders": 174,
+    "units": 239,
+    "customers_active": 3,
+    "share_pct": 4.6
+  },
+  {
+    "estado": "AL",
+    "revenue": 44340.2,
+    "orders": 143,
+    "units": 196,
+    "customers_active": 2,
+    "share_pct": 4.6
+  },
+  {
+    "estado": "MA",
+    "revenue": 38173.2,
+    "orders": 123,
+    "units": 174,
+    "customers_active": 2,
+    "share_pct": 3.9
+  },
+  {
+    "estado": "MS",
+    "revenue": 37081.14,
+    "orders": 116,
+    "units": 162,
+    "customers_active": 2,
+    "share_pct": 3.8
+  },
+  {
+    "estado": "ES",
+    "revenue": 34087.97,
+    "orders": 133,
+    "units": 198,
+    "customers_active": 2,
+    "share_pct": 3.5
+  },
+  {
+    "estado": "RR",
+    "revenue": 28285.82,
+    "orders": 81,
+    "units": 120,
+    "customers_active": 1,
+    "share_pct": 2.9
+  },
+  {
+    "estado": "DF",
+    "revenue": 26687.99,
+    "orders": 77,
+    "units": 108,
+    "customers_active": 1,
+    "share_pct": 2.7
+  },
+  {
+    "estado": "RJ",
+    "revenue": 24750.17,
+    "orders": 50,
+    "units": 73,
+    "customers_active": 1,
+    "share_pct": 2.5
+  },
+  {
+    "estado": "PB",
+    "revenue": 20861.16,
+    "orders": 59,
+    "units": 92,
+    "customers_active": 1,
+    "share_pct": 2.1
+  },
+  {
+    "estado": "PE",
+    "revenue": 19024.24,
+    "orders": 68,
+    "units": 104,
+    "customers_active": 1,
+    "share_pct": 2.0
+  },
+  {
+    "estado": "AP",
+    "revenue": 14425.28,
+    "orders": 60,
+    "units": 83,
+    "customers_active": 1,
+    "share_pct": 1.5
+  },
+  {
+    "estado": "PR",
+    "revenue": 13316.83,
+    "orders": 48,
+    "units": 80,
+    "customers_active": 1,
+    "share_pct": 1.4
+  }
+]

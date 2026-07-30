@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard E-commerce · Keyrus</title>
+<style>
+  :root {
+    --color-bg: #FFFFFF;
+    --color-topbar-start: #0B2265;
+    --color-topbar-end: #0A1F5C;
+    --color-cyan: #38BDF8;
+    --color-cyan-dark: #29ABE2;
+    --color-orange: #F5A623;
+    --color-orange-dark: #F7941D;
+    --color-magenta: #EC4899;
+    --color-red: #E63946;
+    --color-text-title: #111111;
+    --color-text-body: #4A4A4A;
+    --color-text-muted: #898781;
+    --color-border: #E0E0E0;
+    --radius-card: 20px;
+    --radius-pill: 999px;
+    --shadow-card: 0 8px 24px rgba(11,34,101,0.08);
+    --space-xs: 8px; --space-sm: 16px; --space-md: 24px; --space-lg: 40px; --space-xl: 64px;
+    --font-family: "Poppins","Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text-body);
+    font-family: var(--font-family);
+    line-height: 1.55;
+  }
+  h1, h2, h3 { color: var(--color-text-title); font-weight: 800; margin: 0 0 var(--space-xs); }
+  h1 { font-size: 2.1rem; } h2 { font-size: 1.5rem; } h3 { font-size: 1.05rem; }
+  p { margin: 0 0 var(--space-sm); }
+  a { color: var(--color-cyan-dark); }
+
+  .decor-bar-left, .decor-bar-right {
+    position: fixed; top: 0; bottom: 0; width: 10px; z-index: 0;
+  }
+  .decor-bar-left { left: 0; background: linear-gradient(var(--color-cyan), var(--color-cyan-dark)); }
+  .decor-bar-right { right: 0; background: linear-gradient(var(--color-orange), var(--color-orange-dark)); }
+
+  .topbar {
+    background: linear-gradient(90deg, var(--color-topbar-start), var(--color-topbar-end));
+    color: #FFFFFF; text-align: center; font-size: 0.8rem; padding: 6px 12px;
+    letter-spacing: 0.02em;
+  }
+  .navbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: var(--space-md) var(--space-lg);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .logo-navbar { height: 32px; width: auto; display: block; }
+  .logo-footer { height: 24px; width: auto; display: inline-block; margin-top: var(--space-xs); }
+  .navbar-title { font-size: 0.95rem; color: var(--color-text-muted); font-weight: 600; }
+
+  main { max-width: 1180px; margin: 0 auto; padding: 0 var(--space-lg) var(--space-xl); }
+
+  .hero {
+    display: grid; grid-template-columns: 1.2fr 0.8fr; gap: var(--space-lg);
+    align-items: center; padding: var(--space-xl) 0;
+  }
+  .hero p.lead { font-size: 1.1rem; }
+  .hero-card {
+    background: linear-gradient(135deg, var(--color-topbar-start), var(--color-cyan-dark));
+    color: #FFFFFF; border-radius: var(--radius-card); padding: var(--space-lg);
+    box-shadow: var(--shadow-card);
+  }
+  .hero-card .hero-value { font-size: 2.4rem; font-weight: 800; margin: var(--space-xs) 0; }
+  .hero-card .hero-label { font-size: 0.9rem; opacity: 0.85; }
+
+  .stat-row {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--space-sm); margin-bottom: var(--space-lg);
+  }
+  .stat-tile {
+    background: #FFFFFF; border: 1px solid var(--color-border); border-radius: var(--radius-card);
+    padding: var(--space-md); box-shadow: var(--shadow-card);
+  }
+  .stat-tile .stat-value { font-size: 1.5rem; font-weight: 800; color: var(--color-text-title); }
+  .stat-tile .stat-label { font-size: 0.82rem; color: var(--color-text-muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
+
+  .card, .chart-card {
+    background: #FFFFFF; border: 1px solid var(--color-border); border-radius: var(--radius-card);
+    padding: var(--space-lg); box-shadow: var(--shadow-card); margin-bottom: var(--space-lg);
+  }
+  .chart-subtitle { color: var(--color-text-muted); font-size: 0.9rem; }
+  .chart-svg-wrap { margin: var(--space-sm) 0; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); }
+  @media (max-width: 860px) { .grid-2, .hero { grid-template-columns: 1fr; } }
+
+  .legend { display: flex; gap: var(--space-md); margin: var(--space-xs) 0; font-size: 0.85rem; }
+  .legend-item { display: flex; align-items: center; gap: 6px; color: var(--color-text-body); }
+  .legend-swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+
+  details { margin-top: var(--space-sm); }
+  summary {
+    cursor: pointer; color: var(--color-cyan-dark); font-weight: 600; font-size: 0.9rem;
+    padding: var(--space-xs) 0;
+  }
+  table { width: 100%; border-collapse: collapse; margin-top: var(--space-xs); font-size: 0.88rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--color-border); }
+  th { color: var(--color-text-muted); font-weight: 700; text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.03em; }
+
+  .section-title { margin: var(--space-xl) 0 var(--space-md); }
+
+  .btn-pill {
+    display: inline-block; background: var(--color-cyan); color: #FFFFFF; font-weight: 700;
+    padding: 12px 28px; border-radius: var(--radius-pill); text-decoration: none; border: none;
+  }
+
+  .fab {
+    position: fixed; bottom: 24px; left: 24px; width: 48px; height: 48px; border-radius: 50%;
+    background: var(--color-orange); color: #FFFFFF; display: flex; align-items: center;
+    justify-content: center; font-size: 1.3rem; text-decoration: none; box-shadow: var(--shadow-card);
+    z-index: 10;
+  }
+
+  footer {
+    text-align: center; padding: var(--space-lg); color: var(--color-text-muted);
+    font-size: 0.82rem; border-top: 1px solid var(--color-border);
+  }
+</style>
+</head>
+<body>
+<a id="top"></a>
+<div class="decor-bar-left"></div>
+<div class="decor-bar-right"></div>
+
+<div class="topbar">Analise gerada automaticamente a partir dos dados de vendas &middot; {{ kpis.overview.date_range.start | date_br }} a {{ kpis.overview.date_range.end | date_br }}</div>
+
+<nav class="navbar">
+  <img class="logo-navbar" src="{{ logo_data_uri }}" alt="Keyrus - Architect of Intelligence">
+  <div class="navbar-title">Dashboard de Analise E-commerce</div>
+</nav>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>Analise completa de vendas</h1>
+      <p class="lead">Panorama de receita, canais, produtos, clientes e posicionamento de preco frente a concorrencia, com base nos dados de {{ kpis.overview.date_range.start | date_br }} a {{ kpis.overview.date_range.end | date_br }}.</p>
+      <a class="btn-pill" href="#analise-competitiva">Ver analise competitiva</a>
+    </div>
+    <div class="hero-card">
+      <div class="hero-label">Receita Total no Periodo</div>
+      <div class="hero-value">{{ kpis.overview.total_revenue | brl }}</div>
+      <div class="hero-label">{{ kpis.overview.total_orders | num }} pedidos &middot; {{ kpis.overview.total_units | num }} unidades vendidas</div>
+    </div>
+  </section>
+
+  <div class="stat-row">
+    <div class="stat-tile"><div class="stat-value">{{ kpis.overview.total_revenue | brl }}</div><div class="stat-label">Receita Total</div></div>
+    <div class="stat-tile"><div class="stat-value">{{ kpis.overview.total_orders | num }}</div><div class="stat-label">Pedidos</div></div>
+    <div class="stat-tile"><div class="stat-value">{{ kpis.overview.avg_order_value | brl }}</div><div class="stat-label">Ticket Medio</div></div>
+    <div class="stat-tile"><div class="stat-value">{{ kpis.overview.unique_customers_active | num }}</div><div class="stat-label">Clientes Ativos</div></div>
+    <div class="stat-tile"><div class="stat-value">{{ kpis.overview.total_units | num }}</div><div class="stat-label">Unidades Vendidas</div></div>
+  </div>
+
+  {{ charts.revenue_trend }}
+
+  <div class="grid-2">
+    {{ charts.channel }}
+    {{ charts.customer_growth }}
+  </div>
+
+  {{ charts.category }}
+
+  <div class="grid-2">
+    {{ charts.top_products }}
+    {{ charts.top_customers }}
+  </div>
+
+  {{ charts.brand }}
+  {{ charts.estado }}
+
+  <a id="analise-competitiva"></a>
+  <h2 class="section-title">Analise Competitiva de Precos</h2>
+  <div class="stat-row">
+    {% for s in kpis.competitive_pricing_summary %}
+    <div class="stat-tile">
+      <div class="stat-value">{{ s.avg_diff_pct | pct }}</div>
+      <div class="stat-label">{{ s.nome_concorrente }} &middot; {{ s.pct_we_are_cheaper | pct(0, false) }} mais barato</div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {{ charts.competitive_summary }}
+
+  <div class="grid-2">
+    {{ charts.outliers_overpriced }}
+    {{ charts.outliers_underpriced }}
+  </div>
+</main>
+
+<footer>
+  Relatorio gerado automaticamente a partir de <code>data/clientes.csv</code>, <code>data/produtos.csv</code>,
+  <code>data/vendas.csv</code> e <code>data/preco_competidores.csv</code>.
+  <br>
+  <img class="logo-footer" src="{{ logo_data_uri }}" alt="Keyrus - Architect of Intelligence">
+</footer>
+
+<a class="fab" href="#top" title="Voltar ao topo">&uarr;</a>
+</body>
+</html>
