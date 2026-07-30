@@ -1,0 +1,23 @@
+.env
+node_modules/
+dist/
+*.local
+.vite/
+coverage/
+
+# Artefatos compilados de configs .ts (nao versionar) — salvaguarda
+vite.config.js
+vite.config.d.ts
+*.tsbuildinfo
+*.tsbuildinfo
+
+# Streamlit app
+streamlit_app/.venv/
+streamlit_app/__pycache__/
+streamlit_app/**/__pycache__/
+
+# Bot Telegram (app.py)
+.venv/
+__pycache__/
+**/__pycache__/
+
